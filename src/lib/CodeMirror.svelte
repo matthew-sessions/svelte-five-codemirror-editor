@@ -158,11 +158,11 @@
 </script>
 
 {#if is_browser}
-    <div class="codemirror-wrapper {classes}" bind:this={element} />
+    <div class="codemirror-wrapper {classes}" bind:this={element} ></div>
 {:else}
     <div class="scm-waiting {classes}">
         <div class="scm-waiting__loading scm-loading">
-            <div class="scm-loading__spinner" />
+            <div class="scm-loading__spinner" ></div>
             <p class="scm-loading__text">Loading editor...</p>
         </div>
 

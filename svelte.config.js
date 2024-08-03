@@ -1,4 +1,4 @@
-import { vitePreprocess } from "@sveltejs/kit/vite";
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import adapter from "@sveltejs/adapter-static";
 
 /** @type {import("@sveltejs/kit").Config} */
@@ -13,7 +13,7 @@ const config = {
         }),
 
         paths: {
-            base: "/svelte-codemirror-editor",
+            base: "/svelte-five-codemirror-editor",
         },
     },
 };

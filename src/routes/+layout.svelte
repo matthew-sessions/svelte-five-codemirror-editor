@@ -14,12 +14,12 @@
 </script>
 
 <svelte:head>
-    <title>svelte-codemirror-editor</title>
+    <title>svelte-five-codemirror-editor</title>
 </svelte:head>
 
 <section class="layout">
     <header class="header">
-        <h1><a href={base}>svelte-codemirror-editor</a></h1>
+        <h1><a href={base}>svelte-five-codemirror-editor</a></h1>
     </header>
 
     <nav class="menu">

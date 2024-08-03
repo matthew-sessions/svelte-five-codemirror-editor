@@ -1,8 +1,10 @@
-# svelte-codemirror-editor
+# svelte-fivecodemirror-editor
+
+**This is a fork of [svelte-five-codemirror-editor](https://github.com/touchifyapp/svelte-five-codemirror-editor) to support svelte 5**
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](http://opensource.org/licenses/MIT)
-[![NPM version](https://img.shields.io/npm/v/svelte-codemirror-editor.svg?style=flat-square)](https://npmjs.org/package/svelte-codemirror-editor)
-[![NPM download](https://img.shields.io/npm/dm/svelte-codemirror-editor.svg?style=flat-square)](https://npmjs.org/package/svelte-codemirror-editor)
+[![NPM version](https://img.shields.io/npm/v/svelte-five-codemirror-editor.svg?style=flat-square)](https://npmjs.org/package/svelte-five-codemirror-editor)
+[![NPM download](https://img.shields.io/npm/dm/svelte-five-codemirror-editor.svg?style=flat-square)](https://npmjs.org/package/svelte-five-codemirror-editor)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 A svelte component to create a [CodeMirror 6](https://codemirror.net/6/) editor.
@@ -10,16 +12,16 @@ A svelte component to create a [CodeMirror 6](https://codemirror.net/6/) editor.
 ## Installation
 
 ```bash
-npm install svelte-codemirror-editor
+npm install svelte-five-codemirror-editor
 ```
 
 ## Usage
 
-To use `svelte-codemirror-editor`, you need to import the package and use it as any `Svelte` component.
+To use `svelte-five-codemirror-editor`, you need to import the package and use it as any `Svelte` component.
 
 ```svelte
 <script lang="ts">
-    import CodeMirror from "svelte-codemirror-editor";
+    import CodeMirror from "svelte-five-codemirror-editor";
     import { javascript } from "@codemirror/lang-javascript";
 
     let value = "";
@@ -62,7 +64,7 @@ If you try to use this component with `vite` or `svelte-kit`, you have to disabl
 const config = {
     //...
     optimizeDeps: {
-        exclude: ["svelte-codemirror-editor", "codemirror", "@codemirror/language-javascript" /* ... */],
+        exclude: ["svelte-five-codemirror-editor", "codemirror", "@codemirror/language-javascript" /* ... */],
     },
     //...
 }
@@ -74,7 +76,7 @@ const config = {
 
 ```svelte
 <script lang="ts">
-    import CodeMirror from "svelte-codemirror-editor";
+    import CodeMirror from "svelte-five-codemirror-editor";
     import { javascript } from "@codemirror/lang-javascript";
 
     let value = "";
@@ -87,7 +89,7 @@ const config = {
 
 ```svelte
 <script lang="ts">
-    import CodeMirror from "svelte-codemirror-editor";
+    import CodeMirror from "svelte-five-codemirror-editor";
     import { javascript } from "@codemirror/lang-javascript";
     import { oneDark } from "@codemirror/theme-one-dark";
 
@@ -101,7 +103,7 @@ const config = {
 
 ```svelte
 <script lang="ts">
-    import CodeMirror from "svelte-codemirror-editor";
+    import CodeMirror from "svelte-five-codemirror-editor";
     import { javascript } from "@codemirror/lang-javascript";
 
     let value = "";
@@ -124,7 +126,7 @@ const config = {
 
 ```svelte
 <script lang="ts">
-    import CodeMirror from "svelte-codemirror-editor";
+    import CodeMirror from "svelte-five-codemirror-editor";
     let view: EditorView;
 </script>
 
